@@ -2,9 +2,12 @@
 Server-side part for [frida-sideload](https://github.com/commonuserlol/frida-sideload-client)
 
 # Usage
-0. Install python3.10+
-1. Install lz4 bindings (`pip install lz4`)
-2. Run `python3 main.py`
+0. Install nodejs
+1. Clone this repo
+2. **CHANGE ENCRYTION KEY inside index.ts**
+3. Compile with `npx esbuild --bundle index.ts --outfile=index.cjs --platform=node`
+4. Change your remote script inside `target.js`
+5. Run with `node index.cjs`
 
 # License
 This project is licensed under two licenses:

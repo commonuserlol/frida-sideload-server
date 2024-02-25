@@ -1,1 +1,4 @@
-__pycache__
+dist
+node_modules
+*.cjs
+package-lock.json
