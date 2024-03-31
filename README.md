@@ -1,3 +1,5 @@
+**USE FRIDA PORTAL INSTEAD**<br>
+
 # frida-sideload-server
 Server-side part for [frida-sideload](https://github.com/commonuserlol/frida-sideload-client)
 
